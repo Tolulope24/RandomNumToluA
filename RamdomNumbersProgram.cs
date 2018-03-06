@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace RandomNumToluA
 {
-    static class Program
+    static class RamdomNumbersProgram
     {
         /// <summary>
         /// The main entry point for the application.
@@ -16,7 +16,7 @@ namespace RandomNumToluA
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new RandomNumbersForm());
+            Application.Run(new frmRandomNumbers());
         }
     }
 }
